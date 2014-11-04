@@ -15,6 +15,7 @@
     <copyright></copyright>
     <licenseUrl>https://www.wxwidgets.org/about/licence/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/wxwidgets/development-wxwidgets.png</iconUrl>
     <releaseNotes>
 	All:
 
