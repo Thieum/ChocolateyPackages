@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cppcheck</id>
-    <title>CPPCheck</title>
+    <title>Cppcheck</title>
     <version>1.67</version>
     <authors>The CPPCheck Team</authors>
     <owners>Thieum22</owners>
