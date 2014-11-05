@@ -28,7 +28,7 @@ If you answered Yes to any of these then you should download this package.
     <copyright></copyright>
     <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/69023d00-a4f9-4a34-a6cd-7e854ba318b5/eula?licenseType=None</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/.\chocolatey.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/slowcheetah/screenshot.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
