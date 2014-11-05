@@ -37,7 +37,7 @@ Enhanced Scrollbar
     <copyright>Microsoft</copyright>
     <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/3a96a4dc-ba9c-4589-92c5-640e07332afd/eula?licenseType=None</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/.\chocolatey.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/productivitypowertools2012/screenshot.png</iconUrl>
     <releaseNotes>April 2013
 
 This update fixes a bug that can cause the Editor to go blank after reloading a solution.
