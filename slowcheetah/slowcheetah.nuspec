@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>slowcheetah</id>
+    <title>SlowCheetah</title>
+    <version>2.5.11</version>
+    <authors> Sayed Ibrahim Hashimi, Chuck England and Bill Hiebert</authors>
+    <owners>Thieum22</owners>
+    <summary>This package enables you to transform your app.config or any other XML file based on the build configuration. It also adds additional tooling to help you create XML transforms.</summary>
+    <description>This package allows you to automatically transform your app.config (or any file) when you press F5 in Visual Studio. You can have different transformations based on the build configuration. This will enable you to easily have different app settings, connection strings, etc for Debug versus Release. If you want to transform other files you can do that too. Here are some other reasons why you might want to install this package.
+
+Have you ever:
+1.Wanted to have different appSettings for debug and release when building your 
+ app? 
+2.Wanted to use different connection strings based on your build configuration 
+ when building your app? 
+3.Wanted to transform any XML file with a clean and simple syntax? 
+4.Wanted to tweak WCF service configuration in a straight foward way? 
+5.Wanted to preview your XML transform without building/publishing your app? 
+6.Wanted to transform files in addition to web.config on publish for Web projects? 
+
+If you answered Yes to any of these then you should download this package.
+</description>
+    <projectUrl>https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5</projectUrl>
+    <tags>XML Transforms Visual Studio</tags>
+    <copyright></copyright>
+    <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/69023d00-a4f9-4a34-a6cd-7e854ba318b5/eula?licenseType=None</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/.\chocolatey.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
