@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>productivitypowertools2012</id>
+    <title>Productivity Power Tools 2012</title>
+    <version>11.0.60403.0</version>
+    <authors>Microsoft</authors>
+    <owners>Thieum22</owners>
+    <summary>A set of extensions to Visual Studio 2012 Professional (and above) which improves developer productivity.</summary>
+    <description>Productivity Power Tools 2012 for Visual Studio 2012 is an extension pack that brings powerful tools for improved developer productivity.
+New additions for Visual Studio 2012:
+
+Quick Tasks
+ Power Commands
+ Color Printing
+
+In addition to:
+
+Enhanced Scrollbar
+ Middle-Click Scrolling 
+ Organize Imports for Visual Basic
+ Custom Document Well
+ Tools Options Support
+ Auto Brace Completion
+ HTML Copy
+ Fix Mixed Tabs
+ Ctrl + Click Go To Definition
+ Align Assignments
+ Move Line Up/Down Commands
+ Column Guides
+ Colorized Parameter Help
+</description>
+    <projectUrl>https://visualstudiogallery.msdn.microsoft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd</projectUrl>
+    <tags>Productivity Power Tools 2012 Visual Studio</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/3a96a4dc-ba9c-4589-92c5-640e07332afd/eula?licenseType=None</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/.\chocolatey.png</iconUrl>
+    <releaseNotes>April 2013
+
+This update fixes a bug that can cause the Editor to go blank after reloading a solution.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
