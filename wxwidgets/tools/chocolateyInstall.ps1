@@ -1,6 +1,6 @@
 ﻿$packageName = 'wxwidgets' 
 $installerType = 'EXE' 
-$url = 'http://sourceforge.net/projects/wxwindows/files/2.9.1/wxMSW-2.9.1-Setup.exe/download' 
+$url = 'http://sourceforge.net/projects/wxwindows/files/3.0.2/wxMSW-3.0.2-Setup.exe/download' 
 $silentArgs = '/silent' 
 $validExitCodes = @(0) 
 
