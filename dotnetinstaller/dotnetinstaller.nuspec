@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>dotnetinstaller</id>
+    <title>dotNetInstaller</title>
+    <version>2.3</version>
+    <authors>Davide Icardi, Daniel Doubrovkine and Contributors.</authors>
+    <owners>Thieum22</owners>
+    <summary>dotNetInstaller is a widely used, general-purpose setup bootstrapper for Microsoft Windows 95, 98, 2000, XP, 2003, Vista, 2008, Windows 7 and 8.</summary>
+    <description>dotNetInstaller enables the developer to define the application prerequisites and install the correct version(s) of these components in a predictable order based on the processor architecture, user operating system type and language, allow the user to download these components from the web, install these components directly from a single packaged setup, local media or both. dotNetInstaller is very feature rich and runs on all known Windows operating systems with a very tiny footprint. 
+
+A boostrapper doesn't replace tools like InstallShield, Wise, Visual Studio Setup and Deployment Project or Wix. The goal is to create an application to help users with installing the correct prerequisites. Most real world applications need to install several components to work properly, including Windows Service Packs, Internet Explorer, MDAC or .NET Framework. This kind of applications are most commonly known as bootstrappers. dotNetInstaller is such a bootstrapper.
+</description>
+    <projectUrl>http://dblock.github.io/dotnetinstaller/</projectUrl>
+    <tags>setup bootstrapper windows</tags>
+    <copyright>Copyright (c) 2009-2012 Davide Icardi, Daniel Doubrovkine and Contributors.</copyright>
+    <licenseUrl>https://github.com/dblock/dotnetinstaller/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes>Features
+• #40 - Added support for escape patterns for square brackets ( [\[]  for an open bracket and  [\]]  for a close bracket) - @montrowe.
+• #46 - Added support for hiding command based components' application window when run - @icnocop.
+• #24 - The temporary directory is automatically created if it doesn't already exist - @icnocop.
+• #54 - Option to run Cmd/Exe/MsuComponent via  ShellExecute . This allows to properly request elevated privileges with UAC prompt if needed - @baSSiLL.
+• #56 - Support for Windows 8.1 / Server 2012 R2 - @baSSiLL.
+
+Bugs
+• #41 - Fix: When an uninstall successfully completes, pop  uninstallcompletemessage  message box instead of  installcompletemessage  - @montrowe.
+• #18 - Installer should auto close when all checked components are installed - @baSSiLL.
+
+Misc
+•Fix: restored support for Win95/98 - @MikeGratsas.
+• #30: using mt.exe from ThirdParty instead of  %Program Files% , added missing application compatibility sections to manifest files and updated to include Windows 8\2012, and added "Microsoft\Windows SDK v6.0" to ThirdParty and updated build.cmd to set the  PATH  and  VCINSTALLDIR  environment variables accordingly - @icnocop.
+• #45: always logging exit code of process-based components for management\development\troubleshooting purposes - @icnocop.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
