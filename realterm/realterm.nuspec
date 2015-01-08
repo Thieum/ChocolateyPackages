@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>realterm</id>
+    <title>RealTerm</title>
+    <version>2.0.0.70</version>
+    <authors>Crun</authors>
+    <owners>Thieum22</owners>
+    <summary>Serial/TCP Terminal</summary>
+    <description>Realterm is a terminal program specially designed for capturing, controlling and debugging binary and other difficult data streams. It is far better for debugging comms than Hyperterminal. It has no support for dialing modems, BBS etc - that is what hyperterminal does.</description>
+    <projectUrl>http://realterm.sourceforge.net/</projectUrl>
+    <tags>serial RS232 TCP terminal</tags>
+    <copyright></copyright>
+    <licenseUrl>http://realterm.sourceforge.net/index.html%23downloads_Download</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes>[Realterm changelog](http://realterm.sourceforge.net/change_log.txt)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
