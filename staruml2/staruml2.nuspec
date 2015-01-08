@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>staruml2</id>
+    <title>StarUML 2</title>
+    <version>2.0.0</version>
+    <authors>MKLab</authors>
+    <owners>Thieum22</owners>
+    <summary>A sophisticated software modeler.</summary>
+    <description>StarUML 2 is compatible with UML 2.x standard and supports totally 11 kinds of UML diagrams: Class, Object, Use Case, Component, Deployment, Composite Structure, Sequence, Communication, Statechart, Activity and Profile Diagram. </description>
+    <projectUrl>http://staruml.io/</projectUrl>
+    <tags>uml</tags>
+    <copyright>2014-2015 MKLab</copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
