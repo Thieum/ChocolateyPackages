@@ -15,7 +15,7 @@
     <copyright></copyright>
     <licenseUrl>http://realterm.sourceforge.net/index.html%23downloads_Download</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/realterm/TrayIcon1.jpg</iconUrl>
     <releaseNotes>[Realterm changelog](http://realterm.sourceforge.net/change_log.txt)</releaseNotes>
   </metadata>
   <files>
