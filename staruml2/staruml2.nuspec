@@ -13,7 +13,7 @@
     <projectUrl>http://staruml.io/</projectUrl>
     <tags>uml</tags>
     <copyright>2014-2015 MKLab</copyright>
-    <licenseUrl></licenseUrl>
+    <licenseUrl>http://staruml.io/buy</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/staruml2/staruml_logo_small.png</iconUrl>
     <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
