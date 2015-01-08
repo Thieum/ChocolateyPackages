@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>realterm</id>
-    <title>RealTerm</title>
+    <title>Realterm</title>
     <version>2.0.0.70</version>
     <authors>Crun</authors>
     <owners>Thieum22</owners>
