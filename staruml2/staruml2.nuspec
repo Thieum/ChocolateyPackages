@@ -15,7 +15,7 @@
     <copyright>2014-2015 MKLab</copyright>
     <licenseUrl></licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/staruml2/staruml_logo_small.png</iconUrl>
     <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
   </metadata>
   <files>
