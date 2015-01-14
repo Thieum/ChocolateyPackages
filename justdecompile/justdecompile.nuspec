@@ -15,7 +15,7 @@
     <copyright>Telerik</copyright>
     <licenseUrl>http://www.telerik.com/products/decompiler.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/justdecompile/JustDecompile.png</iconUrl>
     <releaseNotes>http://www.telerik.com/products/decompiler.aspx</releaseNotes>
   </metadata>
   <files>
