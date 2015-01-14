@@ -6,7 +6,7 @@ $validExitCodes = @(0)
 $destinationPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $setupFile = Join-Path $destinationPath "setup.exe"
 
-Install-ChocolateyZipPackage "$packageName" $url $destinationPath
+Install-ChocolateyZipPackage "$packageName" $url "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-Install-ChocolateyInstallPackage "$packageName" "$installerType" $setupFile
+Install-ChocolateyInstallPackage "$packageName" "$installerType" $silentArgs $setupFile
 

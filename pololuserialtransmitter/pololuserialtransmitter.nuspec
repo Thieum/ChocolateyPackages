@@ -15,7 +15,7 @@
     <copyright>Pololu</copyright>
     <licenseUrl>https://www.pololu.com/docs/0J23</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/pololuserialtransmitter/pololu.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
