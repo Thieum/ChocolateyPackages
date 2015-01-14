@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>pololuserialtransmitter</id>
+    <title>Pololu Serial Transmitter</title>
+    <version>1.3</version>
+    <authors>Pololu</authors>
+    <owners>Thieum22</owners>
+    <summary>This is a simple serial transmitter utility for Windows</summary>
+    <description>This is a simple serial transmitter utility for Windows that lets you transmit sequences of bytes to a selectable COM port. The most recent version allows you to specify the baud rate, and it reports back any serial data it receives while you are connected. This program can be used to send commands to our serially controllable devices, which can help you troubleshoot problems by letting you determine if the fault lies with your serial code or with the device itself.</description>
+    <projectUrl>https://www.pololu.com/docs/0J23</projectUrl>
+    <tags>RS232 serial COM</tags>
+    <copyright>Pololu</copyright>
+    <licenseUrl>https://www.pololu.com/docs/0J23</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
