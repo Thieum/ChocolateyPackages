@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>justdecompile</id>
+    <title>JustDecompile</title>
+    <version>2014.3.1021.0</version>
+    <authors>Telerik</authors>
+    <owners>Thieum22</owners>
+    <summary>Unrivaled decompiling power.</summary>
+    <description>Unrivaled decompiling power.</description>
+    <projectUrl>http://www.telerik.com/products/decompiler.aspx</projectUrl>
+    <tags>decompiler .net telerik</tags>
+    <copyright>Telerik</copyright>
+    <licenseUrl>http://www.telerik.com/products/decompiler.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes>http://www.telerik.com/products/decompiler.aspx</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
