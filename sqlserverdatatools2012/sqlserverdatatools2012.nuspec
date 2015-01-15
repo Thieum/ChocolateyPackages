@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sqlserverdatatools2012</id>
+    <title>SQL Server Data Tools 2012</title>
+    <version>11.1.41025</version>
+    <authors>Microsoft</authors>
+    <owners>Thieum22</owners>
+    <summary>provides an integrated environment for database developers to carry out all their database design work for any SQL Server platform (both on and off premise) within Visual Studio.</summary>
+    <description>Microsoft SQL Server Data Tools provides an integrated environment for database developers to carry out all their database design work for any SQL Server platform (both on and off premise) within Visual Studio. Database developers can use the SQL Server Object Explorer in VS to easily create or edit database objects and data, or execute queries.</description>
+    <projectUrl>http://msdn.microsoft.com/en-us/data/tools.aspx</projectUrl>
+    <tags>SQL Visual Studio T-SQL</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>http://msdn.microsoft.com/en-us/data/tools.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/ferventcoder/chocolatey-packages/fd1a5932edc26194500554d026ca35e6c0274b6c/icons/microsoft-sql-server.svg</iconUrl>
+    <releaseNotes>http://msdn.microsoft.com/en-us/data/tools.aspx</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
