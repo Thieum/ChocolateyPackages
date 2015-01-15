@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>irfanviewplugins</id>
+    <title>IrfanView PlugIns</title>
+    <version>4.38</version>
+    <authors>Irfan Skiljan</authors>
+    <owners>Thieum22</owners>
+    <summary>Irfanview PlugIns.</summary>
+    <description>http://www.irfanview.info/plugins.htm</description>
+    <projectUrl>http://www.irfanview.info/</projectUrl>
+    <tags>AltaLux CRW ECW Effects JPEG2000</tags>
+    <copyright>Irfan Skiljan</copyright>
+    <licenseUrl>http://www.irfanview.info/main_what_is_engl.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://github.com/alanstevens/ChocoPackages/raw/master/IrfanView/IrfanView.png</iconUrl>
+    <releaseNotes>http://www.irfanview.info/plugins.htm</releaseNotes>
+	<dependencies>
+      <dependency id="irfanview" version="4.38" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
