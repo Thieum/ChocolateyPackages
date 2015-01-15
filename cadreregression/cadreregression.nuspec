@@ -12,10 +12,10 @@
     <description>This curve fitting application is useful for programming engineering applications and spread sheets for specialized analyses.  Use it to transform empirical data from specifications, tests, etc. into a mathematical equations. </description>
     <projectUrl>http://www.cadreanalytic.com/Regress.htm</projectUrl>
     <tags>curve formula</tags>
-    <copyright>http://www.cadreanalytic.com/Regress.htm</copyright>
+    <copyright>CADRE</copyright>
     <licenseUrl>http://www.cadreanalytic.com/Regress.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>http://www.cadreanalytic.com/images/lsq.gif</iconUrl>
+	<iconUrl>https://github.com/Thieum/ChocolateyPackages/blob/master/cadreregression/cadreregression.png</iconUrl>
     <releaseNotes>http://www.cadreanalytic.com/Regress.htm</releaseNotes>
   </metadata>
   <files>
