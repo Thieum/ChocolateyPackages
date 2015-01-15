@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cadreregression</id>
+    <title>CADRE Regression</title>
+    <version>3.1.0006</version>
+    <authors>CADRE</authors>
+    <owners>Thieum22</owners>
+    <summary>Regression analysis application</summary>
+    <description>This curve fitting application is useful for programming engineering applications and spread sheets for specialized analyses.  Use it to transform empirical data from specifications, tests, etc. into a mathematical equations. </description>
+    <projectUrl>http://www.cadreanalytic.com/Regress.htm</projectUrl>
+    <tags>curve formula</tags>
+    <copyright>http://www.cadreanalytic.com/Regress.htm</copyright>
+    <licenseUrl>http://www.cadreanalytic.com/Regress.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>http://www.cadreanalytic.com/images/lsq.gif</iconUrl>
+    <releaseNotes>http://www.cadreanalytic.com/Regress.htm</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
