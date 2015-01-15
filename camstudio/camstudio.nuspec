@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>camstudio</id>
+    <title>CamStudio</title>
+    <version>2.7</version>
+    <authors>CamStudio.org</authors>
+    <owners>Thieum22</owners>
+    <summary>Free Streaming Video Software</summary>
+    <description>CamStudio is able to record all screen and audio activity on your computer and create industry-standard AVI video files and using its built-in SWF Producer can turn those AVIs into lean, mean, bandwidth-friendly Streaming Flash videos (SWFs) </description>
+    <projectUrl>http://camstudio.org/</projectUrl>
+    <tags>screen capture</tags>
+    <copyright>© 2013 CamStudio.org</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl></iconUrl>
+    <releaseNotes>http://www.irfanview.info/plugins.htm</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
