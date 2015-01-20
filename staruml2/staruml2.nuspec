@@ -9,8 +9,11 @@
     <authors>MKLab</authors>
     <owners>Thieum22</owners>
     <summary>A sophisticated software modeler.</summary>
-    <description>StarUML 2 is a commercial software, although there is no time limit for evaluation, you should buy licenses [here](http://staruml.io/buy).
-	StarUML 2 is compatible with UML 2.x standard and supports totally 11 kinds of UML diagrams: Class, Object, Use Case, Component, Deployment, Composite Structure, Sequence, Communication, Statechart, Activity and Profile Diagram. </description>
+    <description>
+	StarUML 2 is compatible with UML 2.x standard and supports totally 11 kinds of UML diagrams: Class, Object, Use Case, Component, Deployment, Composite Structure, Sequence, Communication, Statechart, Activity and Profile Diagram. 
+	
+	StarUML 2 is a commercial software, although there is no time limit for evaluation, you should buy licenses [here](http://staruml.io/buy).
+	</description>
     <projectUrl>http://staruml.io/</projectUrl>
     <tags>uml</tags>
     <copyright>2014-2015 MKLab</copyright>
