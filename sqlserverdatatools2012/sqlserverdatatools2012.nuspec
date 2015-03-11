@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>sqlserverdatatools2012</id>
     <title>SQL Server Data Tools 2012</title>
-    <version>11.1.41025</version>
+    <version>11.1.50226</version>
     <authors>Microsoft</authors>
     <owners>Thieum22</owners>
     <summary>provides an integrated environment for database developers to carry out all their database design work for any SQL Server platform (both on and off premise) within Visual Studio.</summary>
