@@ -1,6 +1,6 @@
 ﻿$packageName = 'staruml2' 
 $installerType = 'MSI'
-$url = 'http://staruml.io/download/release/v2.1.3/StarUML-v2.1.3.msi' 
+$url = 'http://staruml.io/download/release/v2.2.0/StarUML-v2.2.0.msi' 
 $silentArgs = '/qn /norestart' 
 $validExitCodes = @(0)
 
