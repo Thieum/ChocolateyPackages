@@ -1,6 +1,6 @@
 Function IsInstalled {
     $ver = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full').Release
-    return (!($ver -eq $null) )#-and ($ver -ge 393295))
+    return (!($ver -eq $null) -and ($ver -ge 394271))
 }
 
 if (IsInstalled) {

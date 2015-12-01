@@ -7,7 +7,7 @@
     <authors>Microsoft</authors>
     <owners>Thieum22</owners>
     <projectUrl>https://msdn.microsoft.com/en-us/library/w0x726c2(v=vs.110).aspx</projectUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/DotNet4.6.1</packageSourceUrl>
     <iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/icons/dotnet.png</iconUrl>
     <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
