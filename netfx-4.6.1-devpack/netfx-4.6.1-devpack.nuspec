@@ -9,7 +9,7 @@
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=49978</projectUrl>
     <iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/DotNet4.6-TargetPack/dotnet.png</iconUrl>
     <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/netfx-4.6.1-devpack</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Microsoft .NET Framework 4.6.1 Developer Pack</summary>
     <description>The Microsoft .NET Framework 4.6.1 Developer Pack is a single package that bundles the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK. The corresponding language pack for Dev Pack contains the .NET Framework 4.6.1 language pack, .NET 4.6.1 SDK language pack and the Intellisense files. Developers can use this package to install all the different components for .NET 4.6.1 and build applications targeting the .NET Framework 4.6.1 using either Visual Studio 2015, Visual Studio 2013, Visual Studio 2012 or third party IDEs. 
