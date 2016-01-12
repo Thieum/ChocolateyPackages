@@ -5,19 +5,25 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cppcheck</id>
     <title>Cppcheck</title>
-    <version>1.71</version>
+    <version>1.72</version>
     <authors>The CPPCheck Team</authors>
     <owners>Thieum22</owners>
     <summary>A tool for static C/C++ code analysis</summary>
     <description>Cppcheck is a static analysis tool for C/C++ code. Unlike C/C++ compilers and many other analysis tools it does not detect syntax errors in the code. Cppcheck primarily detects the types of bugs that the compilers normally do not detect. The goal is to detect only real errors in the code (i.e. have zero false positives). </description>
     <projectUrl>http://cppcheck.sourceforge.net/</projectUrl>
-    <tags>cpp c++ check static code analysis</tags>
+    <tags>cpp c++ check static code analysis admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+	<packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/cppcheck</packageSourceUrl>
+	<docsUrl>http://sourceforge.net/p/cppcheck/wiki/</docsUrl>
+	<mailingListUrl>http://sourceforge.net/p/cppcheck/discussion/</mailingListUrl>
+	<bugTrackerUrl>http://trac.cppcheck.net/</bugTrackerUrl>
+	<projectSourceUrl>http://sourceforge.net/projects/cppcheck/</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/cppcheck/cppcheck.png</iconUrl>
-    <releaseNotes>[1.71 changelog](http://sourceforge.net/p/cppcheck/news/2015/11/cppcheck-171/)</releaseNotes>
+    <releaseNotes>[1.72 changelog](http://sourceforge.net/p/cppcheck/news/2016/01/cppcheck-172/)</releaseNotes>
 	<dependencies>
+		<dependency id="vcredist2015" version="14.0.23026.0" />
     </dependencies>
   </metadata>
   <files>
