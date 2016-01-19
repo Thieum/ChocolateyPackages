@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>staruml2</id>
     <title>StarUML 2</title>
-    <version>2.5.1</version>
+    <version>2.6.0</version>
     <authors>MKLab</authors>
     <owners>Thieum22</owners>
     <summary>A sophisticated software modeler.</summary>
@@ -15,9 +15,14 @@
 	StarUML 2 is a commercial software, although there is no time limit for evaluation, you should buy licenses [here](http://staruml.io/buy).
 	</description>
     <projectUrl>http://staruml.io/</projectUrl>
-    <tags>uml</tags>
+    <tags>uml admin software modeler erd</tags>
     <copyright>2014-2015 MKLab</copyright>
     <licenseUrl>http://staruml.io/buy</licenseUrl>
+	<packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/staruml2</packageSourceUrl>
+	<docsUrl>http://docs.staruml.io/en/latest/</docsUrl>
+	<mailingListUrl>https://groups.google.com/forum/#!forum/staruml</mailingListUrl>
+	<bugTrackerUrl>http://staruml.uservoice.com/forums/245359-feature-request</bugTrackerUrl>
+	<projectSourceUrl>http://staruml.io/faq</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/staruml2/staruml_logo_small.png</iconUrl>
     <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
