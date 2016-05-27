@@ -18,7 +18,7 @@
 	<docsUrl>http://sourceforge.net/p/cppcheck/wiki/</docsUrl>
 	<mailingListUrl>http://sourceforge.net/p/cppcheck/discussion/</mailingListUrl>
 	<bugTrackerUrl>http://trac.cppcheck.net/</bugTrackerUrl>
-	<projectSourceUrl>http://sourceforge.net/projects/cppcheck/</projectSourceUrl>
+	<projectSourceUrl>https://github.com/danmar/cppcheck</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/cppcheck/cppcheck.png</iconUrl>
     <releaseNotes>[1.73 changelog](https://sourceforge.net/p/cppcheck/news/2016/04/cppcheck-173/)</releaseNotes>
