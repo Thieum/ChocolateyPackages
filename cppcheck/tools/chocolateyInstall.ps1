@@ -1,7 +1,7 @@
 ﻿$packageName = 'cppcheck' 
 $installerType = 'MSI'
-$url = 'ftp://cppcheck.osuosl.org/cppcheck/1.72/cppcheck-1.72-x86-Setup.msi' 
-$urlX64 = 'ftp://cppcheck.osuosl.org/cppcheck/1.72/cppcheck-1.72-x64-Setup.msi' 
+$url = 'http://github.com/danmar/cppcheck/releases/download/1.73/cppcheck-1.73-x86-Setup.msi' 
+$urlX64 = 'http://github.com/danmar/cppcheck/releases/download/1.73/cppcheck-1.73-x64-Setup.msi' 
 $silentArgs = '/quiet' 
 $validExitCodes = @(0)
  
