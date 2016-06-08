@@ -10,7 +10,7 @@ else {
     $packageName = 'DotNet461'
     $installerType = 'exe'
     $Url = 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
-    $silentArgs = "/Passive /NoRestart /Log ""$env:temp\net461.log"""
+    $silentArgs = "/q /Passive /NoRestart /Log ""$env:temp\net461.log"""
     $validExitCodes = @(
         0, # success
         3010 # success, restart required
