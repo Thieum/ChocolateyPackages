@@ -10,10 +10,15 @@
     <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/DotNet4.6.1</packageSourceUrl>
     <iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/icons/dotnet.png</iconUrl>
     <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
+    <releaseNotes>https://msdn.microsoft.com/en-us/library/ms171868(v=vs.110).aspx#v461</releaseNotes>
+    <docsUrl>https://msdn.microsoft.com/en-us/library/w0x726c2(v=vs.110).aspx</docsUrl>
+    <mailingListUrl>http://forums.dotnetfoundation.org/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/dotnet/corefx/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/dotnet/corefx</projectSourceUrl> 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Microsoft .NET Framework 4.6.1</summary>
     <description>The Microsoft .NET Framework 4.6.1 is a highly compatible, in-place update to the Microsoft .NET Framework 4, Microsoft .NET Framework 4.5, Microsoft .NET Framework 4.5.1, Microsoft .NET Framework 4.5.2 and Microsoft .NET Framework 4.6.</description>
-    <tags>microsoft .net framework 4.6.1 redistributable</tags>
+    <tags>microsoft .net framework 4.6.1 redistributable admin</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
