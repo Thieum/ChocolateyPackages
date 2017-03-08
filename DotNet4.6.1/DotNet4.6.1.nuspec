@@ -3,7 +3,7 @@
   <metadata>
     <id>DotNet4.6.1</id>
     <title>Microsoft .NET Framework 4.6.1</title>
-    <version>4.6.01055.20161213</version>
+    <version>4.6.01055.20170308</version>
     <authors>Microsoft</authors>
     <owners>Thieum22</owners>
     <projectUrl>https://msdn.microsoft.com/en-us/library/w0x726c2(v=vs.110).aspx</projectUrl>
@@ -19,6 +19,9 @@
     <summary>Microsoft .NET Framework 4.6.1</summary>
     <description>The Microsoft .NET Framework 4.6.1 is a highly compatible, in-place update to the Microsoft .NET Framework 4, Microsoft .NET Framework 4.5, Microsoft .NET Framework 4.5.1, Microsoft .NET Framework 4.5.2 and Microsoft .NET Framework 4.6.</description>
     <tags>microsoft .net framework 4.6.1 redistributable admin</tags>
+    <dependencies>
+      <dependency id="KB2919355" version="1.0.20160915" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
