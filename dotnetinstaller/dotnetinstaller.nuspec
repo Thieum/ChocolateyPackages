@@ -14,7 +14,7 @@
 A boostrapper doesn't replace tools like InstallShield, Wise, Visual Studio Setup and Deployment Project or Wix. The goal is to create an application to help users with installing the correct prerequisites. Most real world applications need to install several components to work properly, including Windows Service Packs, Internet Explorer, MDAC or .NET Framework. This kind of applications are most commonly known as bootstrappers. dotNetInstaller is such a bootstrapper.
 </description>
     <projectUrl>http://dblock.github.io/dotnetinstaller/</projectUrl>
-    <tags>setup bootstrapper windows</tags>
+    <tags>setup bootstrapper windows admin</tags>
     <copyright>Copyright (c) 2009-2012 Davide Icardi, Daniel Doubrovkine and Contributors.</copyright>
     <licenseUrl>https://github.com/dblock/dotnetinstaller/blob/master/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/dotnetinstaller</packageSourceUrl>
