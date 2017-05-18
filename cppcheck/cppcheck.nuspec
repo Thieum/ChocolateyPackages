@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cppcheck</id>
     <title>Cppcheck</title>
-    <version>1.78.0</version>
+    <version>1.79.0</version>
     <authors>The CPPCheck Team</authors>
     <owners>Thieum22</owners>
     <summary>A tool for static C/C++ code analysis</summary>
@@ -21,7 +21,7 @@
 	<projectSourceUrl>https://github.com/danmar/cppcheck</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/cppcheck/cppcheck.png</iconUrl>
-    <releaseNotes>[1.78.0 changelog](https://github.com/danmar/cppcheck/releases/tag/1.78)</releaseNotes>
+    <releaseNotes>[1.79.0 changelog](https://github.com/danmar/cppcheck/releases/tag/1.79)</releaseNotes>
 	<dependencies>
 		<dependency id="vcredist2015" version="14.0.23026.0" />
     </dependencies>
