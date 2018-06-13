@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'http://staruml.io/download/releases/StarUML%20Setup%203.0.0.exe'
-$url64      = ''
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
