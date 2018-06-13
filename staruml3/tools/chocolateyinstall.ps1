@@ -7,7 +7,6 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'staruml3'
 
