@@ -20,4 +20,5 @@ $packageArgs = @{
 } 
  
 Install-ChocolateyPackage @packageArgs
+Install-ChocolateyPath "$($env:SystemDrive)\Program Files\Cppcheck"
 
