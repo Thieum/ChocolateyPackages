@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>staruml3</id>
+    <title>StarUML 3</title>
+    <version>3.0.0</version>
+    <owners>Thieum22</owners>
+    <authors>MKLab</authors>
+    <summary>A sophisticated software modeler for agile and concise modeling</summary>
+    <description>
+The main targets of users are:
+* Agile and small development teams
+* Professional persons
+* Educational institutes.
+
+The key features of StarUML are:
+* Multi-platform support (MacOS, Windows and Linux)
+* UML 2.x standard compliant
+* Entity-Relationship diagram (ERD)
+* Data-flow diagram (DFD)
+* Flowchart diagram
+* Multiple windows
+* Modern UX
+* Dark and light themes
+* Retina (High-DPI) display support
+* Model-driven development
+* Open APIs
+* Various third-party extensions
+* Asynchronous model validation
+* Export to HTML docs
+* Automatic updates.
+
+StarUML 3 is a commercial software, although there is no time limit for evaluation, you should buy licenses [here](http://staruml.io/buy).
+    </description>
+    <projectUrl>http://staruml.io/</projectUrl>
+    <tags>uml software modeler erd</tags>
+    <copyright> MKLab Co., Ltd. All rights reserved.</copyright>
+    <licenseUrl>http://staruml.io/eula</licenseUrl>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages</packageSourceUrl>
+    <docsUrl>https://docs.staruml.io/</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/staruml</mailingListUrl>
+    <bugTrackerUrl>https://staruml.uservoice.com/forums/245359-feature-request</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/staruml</projectSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/Thieum/ChocolateyPackages/master/staruml3/staruml.png</iconUrl>
+    <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
+  </metadata>
+</package>
