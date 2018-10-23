@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = 'staruml2'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://staruml.io/download/release/v2.8.0/StarUML-v2.8.0.msi' 
+$url = 'https://s3.amazonaws.com/staruml-bucket/releases-v2/StarUML-v2.8.1.msi' 
 
 $packageArgs = @{
   packageName   = $packageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'MSI' 
   url           = $url
   softwareName  = 'staruml2'
-  checksum      = '9DC854E6230D20AAF69FEF6FEF39322A22B415145014BA4856C41A3F2256E222'
+  checksum      = 'DAFA7AE9DCCE861B16632824A9B8BB8519AA6628856BCF22FD9317BEF51DDE97'
   checksumType  = 'sha256' 
   silentArgs = '/quiet' 
   validExitCodes = @(0)
