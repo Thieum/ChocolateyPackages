@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cppcheck</id>
     <title>Cppcheck</title>
-    <version>1.85</version>
+    <version>1.86</version>
     <authors>The CPPCheck Team</authors>
     <owners>Thieum22</owners>
     <summary>A tool for static C/C++ code analysis</summary>
