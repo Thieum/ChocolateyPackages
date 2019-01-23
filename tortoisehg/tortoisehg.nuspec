@@ -27,6 +27,6 @@ TortoiseHg is primarily written in Python and PyQt (the Windows shell extension 
     <copyright>© Steve Borho</copyright>
     <tags>hg mercurial scm revision-control admin</tags>
     <projectSourceUrl>https://bitbucket.org/tortoisehg/thg/src</projectSourceUrl>
-    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tortoisehg/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/tortoisehg</packageSourceUrl>
   </metadata>
 </package>
