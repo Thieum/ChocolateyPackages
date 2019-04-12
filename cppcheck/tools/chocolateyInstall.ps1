@@ -15,7 +15,7 @@ $packageArgs = @{
   checksumType  = 'sha256'
   checksum64    = '3F44683661F08BE7DC5749FDCD9B9A41118CB3533DA9BA68645F33D2BAA77F14'
   checksumType64= 'sha256'
-  silentArgs = '/quiet'
+  silentArgs = '/quiet ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT'
   validExitCodes = @(0)
 }
 
