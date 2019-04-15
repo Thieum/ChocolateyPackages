@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>wxwidgets</id>
     <title>wxWidgets</title>
-    <version>3.1.0</version>
+    <version>3.1.2</version>
     <authors>wxWidgets</authors>
     <owners>Thieum22</owners>
     <summary>Cross-Platform GUI Library</summary>
@@ -14,10 +14,15 @@
     <tags>c++ wx widgets ui</tags>
     <copyright></copyright>
     <licenseUrl>https://www.wxwidgets.org/about/licence/</licenseUrl>
+  <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/wxwidgets</packageSourceUrl>
+	<docsUrl>https://wiki.wxwidgets.org/Main_Page</docsUrl>
+	<mailingListUrl>https://www.wxwidgets.org/support/mailing-lists/</mailingListUrl>
+	<bugTrackerUrl>https://trac.wxwidgets.org/</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/wxWidgets/wxWidgets</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/wxwidgets/development-wxwidgets.png</iconUrl>
+	  <iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/wxwidgets/development-wxwidgets.png</iconUrl>
     <releaseNotes>
-      [Release Notes](https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.0)
+      [Release Notes](https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.2)
 	</releaseNotes>
   </metadata>
   <files>
