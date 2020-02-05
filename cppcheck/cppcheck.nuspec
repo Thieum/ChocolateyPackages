@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cppcheck</id>
     <title>Cppcheck</title>
-    <version>1.89</version>
+    <version>1.90</version>
     <authors>The CPPCheck Team</authors>
     <owners>Thieum22</owners>
     <summary>A tool for static C/C++ code analysis</summary>
@@ -14,16 +14,16 @@
     <tags>cpp c++ check static code analysis admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
-	<packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/cppcheck</packageSourceUrl>
-	<docsUrl>http://sourceforge.net/p/cppcheck/wiki/</docsUrl>
-	<mailingListUrl>http://sourceforge.net/p/cppcheck/discussion/</mailingListUrl>
-	<bugTrackerUrl>http://trac.cppcheck.net/</bugTrackerUrl>
-	<projectSourceUrl>https://github.com/danmar/cppcheck</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/cppcheck</packageSourceUrl>
+    <docsUrl>http://sourceforge.net/p/cppcheck/wiki/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/cppcheck/discussion/</mailingListUrl>
+    <bugTrackerUrl>http://trac.cppcheck.net/</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/danmar/cppcheck</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/cppcheck/cppcheck.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/cppcheck/cppcheck.png</iconUrl>
     <releaseNotes>[changelog](https://github.com/danmar/cppcheck/releases)</releaseNotes>
-	<dependencies>
-		<dependency id="vcredist2015" version="14.0.23026.0" />
+    <dependencies>
+      <dependency id="vcredist2015" version="14.0.23026.0" />
     </dependencies>
   </metadata>
   <files>
