@@ -4,16 +4,23 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>realterm</id>
-    <title>Realterm</title>
+    <title>Realterm: serial terminal</title>
     <version>2.0.0.70</version>
     <authors>Crun</authors>
     <owners>Thieum22</owners>
+    <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages</packageSourceUrl>
     <summary>Serial/TCP Terminal</summary>
     <description>Realterm is a terminal program specially designed for capturing, controlling and debugging binary and other difficult data streams. It is far better for debugging comms than Hyperterminal. It has no support for dialing modems, BBS etc - that is what hyperterminal does.</description>
     <projectUrl>http://realterm.sourceforge.net/</projectUrl>
-    <tags>serial RS232 TCP terminal</tags>
+    <tags>vt100 I2C SPI bl233b 1-wire serial usb telnet RS232 RS485 TCP terminal admin</tags>
     <copyright></copyright>
-    <licenseUrl>http://realterm.sourceforge.net/index.html%23downloads_Download</licenseUrl>
+    <licenseUrl>https://sourceforge.net/directory/license:bsd/</licenseUrl>
+	  
+	  <docsUrl>https://realterm.sourceforge.io/</docsUrl>
+	  <mailingListUrl>https://sourceforge.net/projects/realterm/lists/realterm-news</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/realterm/bugs/</<bugTrackerUrl>
+    <projectSourceUrl>https://realterm.sourceforge.io/</<projectSourceUrl>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/realterm/realterm.png</iconUrl>
     <releaseNotes>[Realterm changelog](http://realterm.sourceforge.net/change_log.txt)</releaseNotes>
