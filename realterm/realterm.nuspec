@@ -47,14 +47,12 @@
     <tags>vt100 I2C SPI bl233b 1-wire serial usb telnet RS232 RS485 TCP terminal admin</tags>
     <copyright></copyright>
     <licenseUrl>https://sourceforge.net/directory/license:bsd/</licenseUrl>
-	  
 	  <docsUrl>https://realterm.sourceforge.io/</docsUrl>
 	  <mailingListUrl>https://sourceforge.net/projects/realterm/lists/realterm-news</mailingListUrl>
-    <bugTrackerUrl>https://sourceforge.net/p/realterm/bugs/</<bugTrackerUrl>
-    <projectSourceUrl>https://realterm.sourceforge.io/</<projectSourceUrl>
-
+    <bugTrackerUrl>https://sourceforge.net/p/realterm/bugs/</bugTrackerUrl>
+    <projectSourceUrl>https://realterm.sourceforge.io/</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/realterm/realterm.png</iconUrl>
+  	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/realterm/realterm.png</iconUrl>
     <releaseNotes>[Realterm changelog](http://realterm.sourceforge.net/change_log.txt)</releaseNotes>
   </metadata>
   <files>
