@@ -1,8 +1,8 @@
 ﻿$packageName = 'wxwidgets' 
 $installerType = 'EXE' 
-$url = 'https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.2/wxMSW-3.1.2-Setup.exe'
-$checksum = '85ac5b18de191d9d5504b7106466b21b64e7249d'
-$checksumType = 'sha1' 
+$url = 'https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3-Setup.exe'
+$checksum = 'BEE29B7693C14A9A725449B651D11DAF304DAB443D506EC11D864AD8556E1450'
+$checksumType = 'sha256' 
 $silentArgs = '/silent' 
 $validExitCodes = @(0) 
 
