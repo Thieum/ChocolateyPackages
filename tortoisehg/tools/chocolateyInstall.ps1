@@ -1,8 +1,8 @@
 $packageName = 'tortoisehg'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
-$url64 = 'https://bitbucket.org/tortoisehg/files/downloads/tortoisehg-5.0.2-x64.msi'
-$checksum64 = '12769892A1A5AECC058E45CF0299E9F4B5E5D9AD32061D35F720298F4621C821'
+$url64 = 'https://bitbucket.org/tortoisehg/files/downloads/tortoisehg-5.1.0-x64.msi'
+$checksum64 = 'E5616C9DF653F96A86EC3B8273E4EF79358BF479B2C81D55D7B7FE736BBC3D40'
 $checksumType64 = 'sha256'
 $validExitCodes = @(0,3010)
 
