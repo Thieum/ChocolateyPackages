@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>realterm</id>
     <title>Realterm: serial terminal</title>
-    <version>2.0.0.7000</version>
+    <version>3.0.1.44</version>
     <authors>Crun</authors>
     <owners>Thieum22</owners>
     <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages</packageSourceUrl>
