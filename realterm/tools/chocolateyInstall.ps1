@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://osdn.net/frs/g_redir.php?m=acc&f=realterm%2FRealterm%2F2.0.0.70%2FRealterm_2.0.0.70_setup.exe'
+$url        = 'https://realterm.i2cchip.com/Realterm_3.0.1.44_setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'realterm'
 
-  checksum      = 'A82A7B727EFBFD95668A75DDDF534D623C14F674A14036A8A2E3BC5D97D9F17E'
+  checksum      = '67275D8330156546DBFF495259053705AB41E6E0F03CE07E4000F34E4BBAA5A2'
   checksumType  = 'sha256'
 
   silentArgs='/S'
