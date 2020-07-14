@@ -1,11 +1,11 @@
 $packageName = 'tortoisehg'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
-$url = 'https://www.mercurial-scm.org/release/tortoisehg/windows/tortoisehg-5.4.1-x86.msi'
-$checksum = '1EC44C9BC4218C859A00A579A19558289DD442EEE7E23A05D80045A3D52E4326'
+$url = 'https://www.mercurial-scm.org/release/tortoisehg/windows/tortoisehg-5.4.2-x86.msi'
+$checksum = 'DF9A76B19B13686B3E6692C57E9AEA4A0435978B7F0C6E23B5D4ACB8FD52979C'
 $checksumType = 'sha256'
-$url64 = 'https://www.mercurial-scm.org/release/tortoisehg/windows/tortoisehg-5.4.1-x64.msi'
-$checksum64 = 'a3c68394d37acf3501418068f32036751fb0c50e888c143dff71f7d1179b4dcf'
+$url64 = 'https://www.mercurial-scm.org/release/tortoisehg/windows/tortoisehg-5.4.2-x64.msi'
+$checksum64 = '116030C30FF69AE650A6F986B91CA6B3EB29E352B030236EEE17606848A0E3CB'
 $checksumType64 = 'sha256'
 $validExitCodes = @(0,3010)
 
