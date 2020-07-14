@@ -6,8 +6,8 @@
     <title>TortoiseHg</title>
     <authors>Steve Borho</authors>
     <owners>Thieum</owners>
-    <licenseUrl>https://bitbucket.org/tortoisehg/thg/src/2874791e505e3a6c7b18b6e2e88074c52f833448/COPYING.txt</licenseUrl>
-    <projectUrl>https://tortoisehg.bitbucket.io/</projectUrl>
+    <licenseUrl>https://foss.heptapod.net/mercurial/tortoisehg/thg/-/blob/branch/stable/COPYING.txt</licenseUrl>
+    <projectUrl>https://foss.heptapod.net/mercurial/tortoisehg/thg</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/36f12da334cc567ab7a147f0698cb0dcaca042ad/icons/tortoisehg.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TortoiseHg is a set of graphical tools and a shell extension for the Mercurial distributed revision control system.
@@ -16,17 +16,17 @@ TortoiseHg consists of a shell extension, which provides overlay icons and conte
 
 TortoiseHg is primarily written in Python and PyQt (the Windows shell extension being the notable exception). The thg script and TortoiseHg dialogs can be used on any platform that supports PyQt, including Mac OS X.
 
-[User Documentation](http://tortoisehg.bitbucket.io/docs.html)
+[User Documentation](https://tortoisehg.readthedocs.io/en/latest/index.html)
 [Frequently Asked Questions (FAQ)](http://tortoisehg.readthedocs.org/en/latest/faq.html)
-[Screenshots](http://tortoisehg.bitbucket.io/screenshots.html)
-[Developer documentation](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)</description>
+[Screenshots](https://tortoisehg.readthedocs.io/en/latest/quick.html)
+[Developer documentation](https://foss.heptapod.net/mercurial/tortoisehg/thg/-/blob/branch/stable/CONTRIBUTING.txt)</description>
     <summary>Mercurial source control management client implemented as File Explorer shell extension</summary>
     <releaseNotes>#### Program
-* https://bitbucket.org/tortoisehg/thg/wiki/ReleaseNotes
+* https://foss.heptapod.net/mercurial/tortoisehg/thg/-/releases
     </releaseNotes>
     <copyright>© Steve Borho</copyright>
     <tags>hg mercurial scm revision-control admin</tags>
-    <projectSourceUrl>https://bitbucket.org/tortoisehg/thg/src</projectSourceUrl>
+    <projectSourceUrl>https://foss.heptapod.net/mercurial/tortoisehg/thg</projectSourceUrl>
     <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/tortoisehg</packageSourceUrl>
   </metadata>
 </package>
