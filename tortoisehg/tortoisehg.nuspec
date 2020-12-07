@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>tortoisehg</id>
-    <version>5.5.2</version>
+    <version>5.6.0</version>
     <title>TortoiseHg</title>
     <authors>Steve Borho</authors>
     <owners>Thieum</owners>
     <licenseUrl>https://foss.heptapod.net/mercurial/tortoisehg/thg/-/blob/branch/stable/COPYING.txt</licenseUrl>
-    <projectUrl>https://foss.heptapod.net/mercurial/tortoisehg/thg</projectUrl>
+    <projectUrl>https://tortoisehg.bitbucket.io/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/36f12da334cc567ab7a147f0698cb0dcaca042ad/icons/tortoisehg.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TortoiseHg is a set of graphical tools and a shell extension for the Mercurial distributed revision control system.
