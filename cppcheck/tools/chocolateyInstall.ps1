@@ -11,7 +11,7 @@ $packageArgs = @{
   softwareName  = 'cppcheck'
   checksum64    = '380414BFD26BA86DC635743168C365E5F73E0D114B266B13C5AE9EA8EA1EAB60'
   checksumType64= 'sha256'
-  silentArgs    = '/quiet ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT'
+  silentArgs    = '/quiet ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT /norestart'
   validExitCodes = @(0)
 }
 
