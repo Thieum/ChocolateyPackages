@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = 'visualleakdetector'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/KindDragon/vld/releases/download/v2.5.1/vld-2.5.1-setup.exe' 
+$url = 'https://github.com/Azure/vld/releases/download/v2.5.7/vld-2.5.7-setup.exe' 
 
 $packageArgs = @{
   packageName   = $packageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'EXE' 
   url           = $url
   softwareName  = 'visualleakdetector'
-  checksum      = '6E9504920F81AED1CF52674BD512BBEF3CD8A1B8A860CAB0FE03C6F19D7008B3'
+  checksum      = '934DAECF7A08DB9ED5C6E9B48B87767FA5A76BFFB7C80FB1ADD07CBF87F6BBDF'
   checksumType  = 'sha256' 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /CLOSEAPPLICATIONS /NORESTART' 
   validExitCodes = @(0)
