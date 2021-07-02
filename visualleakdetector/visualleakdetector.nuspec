@@ -19,18 +19,18 @@
                   It's a very effective way to quickly diagnose, and fix, memory leaks in C/C++ applications.
                   The main difference between the  CRT Debug Library and VLD, is that Visual Leak Detector shows  you the complete  callstack used for memory allocation has led to the leak.
      </description>
-    <projectUrl>https://vld.codeplex.com/</projectUrl>
+    <projectUrl>https://github.com/KindDragon/vld</projectUrl>
     <tags>visual leak detector c++ admin</tags>
     <copyright></copyright>
-    <licenseUrl>https://vld.codeplex.com/license</licenseUrl>
+    <licenseUrl>https://github.com/KindDragon/vld/blob/master/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/Thieum/ChocolateyPackages/tree/master/visualleakdetector</packageSourceUrl>
-    <docsUrl>https://vld.codeplex.com/documentation</docsUrl>
-    <mailingListUrl>https://vld.codeplex.com/discussions</mailingListUrl>
-    <bugTrackerUrl>https://vld.codeplex.com/workitem/list/basic</bugTrackerUrl>
-    <projectSourceUrl>https://vld.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <docsUrl>https://github.com/KindDragon/vld/wiki</docsUrl>
+    <mailingListUrl>https://github.com/KindDragon/vld/issues</mailingListUrl>
+    <bugTrackerUrl>https://github.com/KindDragon/vld/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/KindDragon/vld/releases/latest</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/3f8b61a8/visualleakdetector/vld_icon.png</iconUrl>
-    <releaseNotes>[changelog](https://vld.codeplex.com/SourceControl/latest#CHANGES.txt)</releaseNotes>
+    <releaseNotes>[changelog](https://github.com/KindDragon/vld/blob/v2.5.1/CHANGES.txt)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
