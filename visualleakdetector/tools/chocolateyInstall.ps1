@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = 'visualleakdetector'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://vld.codeplex.com/downloads/get/1632757' 
+$url = 'https://github.com/KindDragon/vld/releases/download/v2.5.1/vld-2.5.1-setup.exe' 
 
 $packageArgs = @{
   packageName   = $packageName
