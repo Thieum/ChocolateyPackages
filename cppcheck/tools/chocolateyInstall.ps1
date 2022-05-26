@@ -12,7 +12,10 @@ $packageArgs = @{
   checksum64    = '752037A631A23698C03609FBCE9339A5466D2E25EA05DA57B948DF61B6ED873E'
   checksumType64= 'sha256'
   silentArgs    = '/quiet ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT /norestart'
-  validExitCodes = @(0)
+  validExitCodes = @(
+            0, # success
+            3010 # success, restart required
+        )
 }
 
 Install-ChocolateyPackage @packageArgs
