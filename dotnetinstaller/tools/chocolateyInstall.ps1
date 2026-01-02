@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = 'dotnetinstaller'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/dblock/dotnetinstaller/releases/download/2.4/dotNetInstaller.2.4.msi' 
+$url = 'https://github.com/dotnetinstaller/dotnetinstaller/releases/download/3.2.115/dotNetInstaller.3.2.115.0.msi' 
 
 $packageArgs = @{
   packageName   = $packageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'MSI' 
   url           = $url
   softwareName  = 'dotnetinstaller'
-  checksum      = 'CE750FBC872EF177EFCE9DD07A5A5BAE6C3E85163424D6634BAAD0DC1AF5CF2E'
+  checksum      = '121CEDC056EBE7424E4C3BA54D948860C8D9D5D05A88E5AD36C4CF6314FA7743'
   checksumType  = 'sha256' 
   silentArgs = '/quiet' 
   validExitCodes = @(0)

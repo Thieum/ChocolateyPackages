@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>dotnetinstaller</id>
     <title>dotNetInstaller</title>
-    <version>2.4</version>
+    <version>3.2.115</version>
     <authors>Davide Icardi, Daniel Doubrovkine and Contributors.</authors>
     <owners>Thieum22</owners>
     <summary>dotNetInstaller is a widely used, general-purpose setup bootstrapper for Microsoft Windows 95, 98, 2000, XP, 2003, Vista, 2008, Windows 7 and 8.</summary>
@@ -24,8 +24,7 @@ A boostrapper doesn't replace tools like InstallShield, Wise, Visual Studio Setu
 	<projectSourceUrl>https://github.com/dblock/dotnetinstaller</projectSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/Thieum/ChocolateyPackages/master/dotnetinstaller/dotnetinstaller.png</iconUrl>
-    <releaseNotes>[2.4 changelog](https://github.com/dblock/dotnetinstaller/releases/tag/2.4)
-</releaseNotes>
+    <releaseNotes>https://github.com/dotnetinstaller/dotnetinstaller/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
