@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = 'cppcheck'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64 = 'https://github.com/danmar/cppcheck/releases/download/2.16.0/cppcheck-2.16.0-x64-Setup.msi'
+$url64 = 'https://github.com/danmar/cppcheck/releases/download/2.19.0/cppcheck-2.19.0-x64-Setup.msi'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'MSI'
   url64bit      = $url64
   softwareName  = 'cppcheck'
-  checksum64    = 'B4137578B4E76F0A1065D561C99D8A286BB1159BC29A0B1914CC33AFC7A890B0'
+  checksum64    = 'aac15f6dc2b404b3b2562015419f11d91f391e686279cabd20627a8435782128'
   checksumType64= 'sha256'
   silentArgs    = '/quiet ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT /norestart'
   validExitCodes = @(
